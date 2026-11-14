@@ -21,7 +21,7 @@
 ## 认证流程
 
 ```text
-POST http://<PORTAL_IP>:801/eportal/?c=ACSetting&a=Login&protocol=http:&hostname=<PORTAL_IP>&iTermType=1&wlanuserip=<IP>&wlanacip=<AC_IP>&mac=00-00-00-00-00-00&ip=<IP>&enAdvert=0&queryACIP=0&loginMethod=1
+POST http://<PORTAL_IP>:801/eportal/?c=ACSetting&a=Login&protocol=http:&hostname=<PORTAL_IP>&iTermType=1&wlanuserip=<IP>&wlanacip=<AC_IP>&mac=<MAC>&ip=<IP>&enAdvert=0&queryACIP=0&loginMethod=1
 Referer: http://<PORTAL_IP>/
 Content-Type: application/x-www-form-urlencoded
 ```
