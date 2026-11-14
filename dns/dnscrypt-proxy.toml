@@ -1,0 +1,29 @@
+listen_addresses = ['127.0.0.1:5353']
+max_clients = 1000
+ipv4_servers = true
+ipv6_servers = false
+dnscrypt_servers = true
+doh_servers = false
+require_dnssec = false
+require_nolog = false
+require_nofilter = false
+force_tcp = false
+timeout = 3000
+keepalive = 30
+cert_refresh_delay = 240
+# Bootstrap resolvers only; 1.12.12.12 and 120.53.53.53 are unreachable here.
+fallback_resolvers = ['223.5.5.5:53', '119.29.29.29:53']
+ignore_system_dns = true
+netprobe_timeout = 10
+log_level = 2
+cache = true
+cache_size = 8192
+cache_min_ttl = 60
+cache_max_ttl = 86400
+cache_neg_min_ttl = 60
+cache_neg_max_ttl = 600
+server_names = ['cisco']
+
+[static]
+  [static.'cisco']
+  stamp = 'sdns://AQAAAAAAAAAAEjIwOC42Ny4yMjAuMjIwOjQ0MyC3NRFAIG8iXT4r2CLX_WkeocM8yNZmjQy-BL-rykP7eRsyLmRuc2NyeXB0LWNlcnQub3BlbmRucy5jb20'

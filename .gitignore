@@ -1,0 +1,10 @@
+campus.conf
+*.tar.gz
+*.log
+*.out
+*.headers
+*.status
+*.lasttry
+*.streak
+*.lock
+.env

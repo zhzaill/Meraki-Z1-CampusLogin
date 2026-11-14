@@ -1,0 +1,7 @@
+# Copy this file to campus.conf and fill in local credentials.
+IFACE=wlan0
+ACIP=10.10.9.200
+PORTAL_HOST=1.1.1.1
+PORTAL_URL=http://1.1.1.1/
+USERNAME=',0,<student-id>@telecom'
+PASSWORD='SET_LOCALLY'
